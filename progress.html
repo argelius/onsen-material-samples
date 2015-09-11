@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Onsen UI - Material Design Progress Sample</title>
+
+    <link rel="stylesheet" href="css/onsenui.css" />
+    <link rel="stylesheet" href="css/onsen-css-components.css" />
+
+    <script src="js/ons-core.js"></script>
+
+    <style>
+      ons-progress {
+        margin: 10px;
+        width: 200px;
+      }
+
+      ons-progress[type="circular"] {
+        width: 42px;
+        height: 42px;
+      }
+    </style>
+
+    <style>
+      body {
+        margin: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ons-progress value="34" secondary-value="74"></ons-progress>
+    <ons-progress indeterminate></ons-progress>
+    <ons-progress type="circular" value="75" secondary-value="0"></ons-progress>
+    <ons-progress type="circular" value="32" secondary-value="55"></ons-progress>
+    <ons-progress type="circular" indeterminate></ons-progress>
+  </body>
+</html>
